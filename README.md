@@ -1,67 +1,48 @@
-# glove-mouse
-final year project ,-bitirme projesi
-# Glove Mouse 🖱️
+# 🧤 Glove Mouse — Bitirme Projesi
 
-A TÜBİTAK final year project — a wearable glove that replaces
-the traditional mouse using hand gestures.
+**Final Year Graduation Project** — Düzce University, EEE Department
 
-## How It Works
-- MPU6050 IMU tracks wrist movement for cursor control
-- Flex sensors detect finger positions for mode switching
-- Arduino Leonardo emulates a standard USB-HID mouse
-- No drivers, no software — plug and play on any computer
+A glove-based mouse controller using flex sensors, IMU, and Bluetooth. Control your cursor with hand gestures.
 
-## Modes
-| Mode | Gesture | Function |
-|------|---------|----------|
-| Fix Mode | Fist | Cursor movement & scrolling |
-| Air Tap Mode | Index finger up | Left click / Right click |
-| Inactive Mode | Open hand | No action — prevents accidents |
+## Features
 
-## Components
-- Arduino Leonardo
-- MPU6050 IMU (I2C)
-- Flex sensors x5
-- Glove
+- **Hand Tracking** — IMU (MPU6050) for orientation and movement
+- **Gesture Recognition** — Flex sensors detect finger bends for clicks and gestures
+- **Bluetooth** — HC-05 module for wireless communication
+- **Custom PCB** — KiCad-designed PCB (ongoing)
+- **Real-time Control** — Smooth cursor movement mapped to hand motion
 
-## Built With
-- C (Arduino firmware)
-- KiCad (schematic design)
-- USB-HID protocol
+## Hardware
+
+| Component | Purpose |
+|-----------|---------|
+| Flex Sensors (x5) | Finger bend detection |
+| MPU6050 (IMU) | Hand orientation & motion |
+| HC-05 | Bluetooth communication |
+| Arduino/STM32 | Microcontroller |
+| Custom PCB | KiCad design (in progress) |
+| Battery | Power supply (to be integrated) |
+
+## Software
+
+- **Firmware:** C/C++ (Arduino/STM32)
+- **Communication:** Serial over Bluetooth
+- **Host:** Python receiver script → system cursor control
 
 ## Status
-🔄 In progress — TÜBİTAK application submitted, result expected April 2025
+
+- ✅ Movement tracking working via Bluetooth
+- ✅ Gesture detection logic complete
+- ✅ Hand tracking algorithm working
+- ⏳ Flex sensors — awaiting delivery from supplier
+- ⏳ Custom PCB — design in KiCad
+- ⏳ Final assembly — glove mounting + battery integration
+
+## Poster & Presentation
+
+Presenting at the university's **Bitirme Projeleri Sunum ve Poster Sergisi** on **21 May 2026**.
 
 ---
 
-# Eldiven Mouse 🖱️
-
-TÜBİTAK bitirme projesi — el hareketleriyle geleneksel fareyi
-simüle eden giyilebilir bir eldiven.
-
-## Nasıl Çalışır
-- MPU6050 IMU, bilek hareketini takip ederek imleç kontrolü sağlar
-- Flex sensörler parmak pozisyonlarını algılayarak mod geçişini kontrol eder
-- Arduino Leonardo standart bir USB-HID fare olarak emüle edilir
-- Sürücü gerekmez — her bilgisayarda tak-çalıştır
-
-## Modlar
-| Mod | Jest | Fonksiyon |
-|-----|------|-----------|
-| Fix Mod | Yumruk | İmleç hareketi & kaydırma |
-| Air Tap Mod | İşaret parmağı yukarı | Sol tık / Sağ tık |
-| Inactive Mod | Açık el | Eylem yok — yanlışlıkla aktivasyonu önler |
-
-## Bileşenler
-- Arduino Leonardo
-- MPU6050 IMU (I2C)
-- Flex sensör x5
-- Eldiven
-
-## Kullanılan Teknolojiler
-- C (Arduino firmware)
-- KiCad (devre şeması)
-- USB-HID protokolü
-
-## Durum
-🔄 Devam ediyor — TÜBİTAK başvurusu yapıldı, Nisan 2025 sonucu bekleniyor
+**Supervisor:** (insert advisor name)
+**Student:** Salah Hussein Osman

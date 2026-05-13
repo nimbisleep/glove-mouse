@@ -1,0 +1,13 @@
+# Embedded
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+*.map
+build/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
