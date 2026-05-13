@@ -11,3 +11,6 @@ build/
 __pycache__/
 *.pyc
 .DS_Store
+*.kicad_prl
+fp-info-cache
+schematics-backups/
