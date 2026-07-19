@@ -99,8 +99,8 @@ Gerber files (`*.gbr`) are included for direct fabrication.
 | ✅ Movement tracking | Working via BLE |
 | ✅ Click/gesture logic | Implemented |
 | ✅ KiCad PCB | Designed |
-| ⏳ Flex sensors | Awaiting delivery |
-| ⏳ Final assembly | Glove mounting + battery |
+| ✅ Flex sensors | Added |
+| ✅ Final assembly | Glove mounting + battery |
 
 ---
 
