@@ -1,4 +1,4 @@
-# 🧤 Glove Mouse — Wireless Gesture-Controlled HID
+#  Glove Mouse — Wireless Gesture-Controlled HID
 
 **Graduation Project (Bitirme)** — Düzce University, EEE Department
 
@@ -6,7 +6,7 @@ A wireless glove mouse controlled by hand gestures. Uses an **ESP32** with **MPU
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Drift-free cursor** — MPU6050 DMP (Digital Motion Processor) handles all orientation math on-chip. Pitch moves cursor up/down, roll moves left/right. No accumulated drift.
 - **Bluetooth BLE** — ESP32 built-in BLE, pairs natively with Windows, macOS, Linux, Android
@@ -43,7 +43,7 @@ glove-mouse/
 
 ---
 
-## 🔧 Hardware
+##  Hardware
 
 | Component | Purpose |
 |-----------|---------|
@@ -55,7 +55,7 @@ glove-mouse/
 
 ---
 
-## 🖥️ Firmware
+##  Firmware
 
 The firmware uses the MPU6050's built-in DMP (Digital Motion Processor) to get stable, drift-free orientation data. The ESP32 handles BLE HID mouse reporting.
 
@@ -79,7 +79,7 @@ MPU6050 AD0  → GND
 
 ---
 
-## 📐 PCB (KiCad)
+##  PCB (KiCad)
 
 The custom PCB is designed in KiCad as a 2-layer board:
 - ESP32 footprint with all required passives
@@ -92,7 +92,7 @@ Gerber files (`*.gbr`) are included for direct fabrication.
 
 ---
 
-## 📅 Status
+##  Status
 
 | Component | Status |
 |-----------|--------|
@@ -104,7 +104,7 @@ Gerber files (`*.gbr`) are included for direct fabrication.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Salah Hussein Osman**  
 saalahsega01@gmail.com
